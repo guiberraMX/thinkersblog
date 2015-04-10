@@ -1,0 +1,42 @@
+/*
+ * Created with iconvau.lt
+ */
+
+@font-face {
+  font-family: "iconvault";
+  src: url("iconvault_0ffb808a5f8017fb0d976afc80a16997.eot");
+  src: url("iconvault_0ffb808a5f8017fb0d976afc80a16997.eot?#iefix") format("embedded-opentype"),
+       url("iconvault_0ffb808a5f8017fb0d976afc80a16997.woff") format("woff"),
+       url("iconvault_0ffb808a5f8017fb0d976afc80a16997.ttf") format("truetype"),
+       url("iconvault_0ffb808a5f8017fb0d976afc80a16997.svg#iconvault") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-vine:before,
+.icon-instagram:before,
+.icon-vimeo:before,
+.icon-foursquare:before,
+.icon-facebook:before,
+.icon-youtube:before,
+.icon-g-:before,
+.icon-twitter:before {
+  font-family: "iconvault";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.icon-vine:before { content: "\f100"; }
+.icon-instagram:before { content: "\f101"; }
+.icon-vimeo:before { content: "\f102"; }
+.icon-foursquare:before { content: "\f103"; }
+.icon-facebook:before { content: "\f104"; }
+.icon-youtube:before { content: "\f105"; }
+.icon-g-:before { content: "\f106"; }
+.icon-twitter:before { content: "\f107"; }

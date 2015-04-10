@@ -19,6 +19,7 @@
     <h2 class="blog-description">{{@blog.description}}</h2>
     <div class="custom-links">
         <a href="https://twitter.com/MarkReadM" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+        <a href="https://twitter.com/MarkReadM" target="_blank"><i class="icon-twitter"></i></a>&nbsp;&nbsp;
         <a href="https://plus.google.com/113570202169808481097/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;
         <a href="https://www.pinterest.com/markreadM/" target="_blank"><i class="fa fa-pinterest"></i></a>&nbsp;&nbsp;·&nbsp;&nbsp;
         <a href="/aboutme/">h</a>&nbsp;&nbsp;·&nbsp;&nbsp;
@@ -53,8 +54,7 @@
 {{! The main content area on the homepage }}
 <main class="content" role="main">
 
-    <h5 class="index-headline featured"><span>Featured</span></h5>
-
+    
     <div class="container featured">
         {{#foreach posts}}
             {{#if featured}}
@@ -74,7 +74,7 @@
     </div>
 
 
-    <h5 class="index-headline normal"><span>Regular</span></h5>
+    <h5 class="index-headline normal"><span></span></h5>
 
     <div class="cf frame">
     {{#foreach posts}}
@@ -88,7 +88,9 @@
                     <section class="post-excerpt" itemprop="description">
                         <p>{{excerpt characters="130"}}&hellip;</p>
                     </section>
-                    <div class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span></div>
+
+
+                    
                 </div>
             </article>
         {{/if}}
