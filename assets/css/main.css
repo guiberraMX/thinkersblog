@@ -396,6 +396,7 @@ body {
     line-height: 30px;
     margin: 0;
     padding-bottom: 30px;
+    text-align: justify;
     color: #333333;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
